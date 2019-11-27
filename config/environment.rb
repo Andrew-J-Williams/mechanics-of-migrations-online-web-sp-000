@@ -9,6 +9,8 @@ require 'bundler/setup'
 Bundler.require
 
 
-ActiveRecord::establish_connection
+ActiveRecord::establish_connection(
+  
+)
 
 require_relative "../artist.rb"
