@@ -5,6 +5,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :genre
       t.integer :age
+      t.string :hometown
     end
   end
 
