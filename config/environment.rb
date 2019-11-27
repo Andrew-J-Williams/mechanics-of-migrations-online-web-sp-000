@@ -10,7 +10,7 @@ Bundler.require
 
 
 ActiveRecord::establish_connection(
-  
+  :adapter => 
 )
 
 require_relative "../artist.rb"
