@@ -5,7 +5,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
   def down
   end
 
-  def change #primary way of writing migrations
+  def change 
     create_table :artists do |t|
       t.string :name
       t.string :genre
