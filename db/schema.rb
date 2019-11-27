@@ -1,4 +1,4 @@
-ActiveRecord::
+ActiveRecord::Schema
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
