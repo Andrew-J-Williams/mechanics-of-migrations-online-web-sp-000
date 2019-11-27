@@ -5,3 +5,5 @@ CREATE TABLE IF NOT EXISTS artists (
   age INTEGER,
   hometown TEXT
 )
+
+ActiveRecord::Base.connection.execute(sql)
