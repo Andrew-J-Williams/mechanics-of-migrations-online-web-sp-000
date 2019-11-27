@@ -18,3 +18,5 @@ ActiveRecord::Schema.define(version: 1) do
     t.integer "age"
     t.string "hometown"
   end
+
+end
