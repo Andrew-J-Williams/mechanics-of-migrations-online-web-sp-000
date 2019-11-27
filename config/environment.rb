@@ -10,7 +10,8 @@ Bundler.require
 
 
 ActiveRecord::establish_connection(
-  :adapter => "sqlite3"
+  :adapter => "sqlite3",
+  :
 )
 
 require_relative "../artist.rb"
